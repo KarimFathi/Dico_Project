@@ -1,6 +1,5 @@
 /*
- * Karim Fathi
- * Salim Belkebir 
+ * Karim Fathi 
  */
 package dico_generique;
 
@@ -56,7 +55,7 @@ public abstract class AbstractDictionaryG <T, S> implements IDictionaryG<T, S> {
 	public String toString() {
 		String str = "" ;
 		for (int i = 0 ; i < key.length ; i++)
-			str += "\nA l'index : " +i+ " on le numéro : " +this.key[i]+ ", qui corréspond à : " +this.value[i];
+			str += "\nA l'index : " +i+ " on le numÃ©ro : " +this.key[i]+ ", qui corrÃ©spond Ã  : " +this.value[i];
 		return str;
 	}
 
