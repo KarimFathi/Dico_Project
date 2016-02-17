@@ -1,6 +1,5 @@
 /*
  * Karim Fathi
- * Salim Belkebir 
  */
 package dico;
 
@@ -56,7 +55,7 @@ public abstract class AbstractDictionary implements IDictionary {
 	public String toString() {
 		String str = "" ;
 		for (int i = 0 ; i < key.length ; i++)
-			str += "\nA l'index : " +i+ " on a le mot : " +this.key[i]+ ", qui a la définition : " +this.value[i];
+			str += "\nA l'index : " +i+ " on a le mot : " +this.key[i]+ ", qui a la dÃ©finition : " +this.value[i];
 		return str;
 	}	
 }
