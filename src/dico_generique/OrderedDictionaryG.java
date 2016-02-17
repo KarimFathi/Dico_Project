@@ -1,6 +1,5 @@
 /*
  * Karim Fathi
- * Salim Belkebir 
  */
 package dico_generique;
 
